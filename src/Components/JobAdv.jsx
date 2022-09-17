@@ -23,7 +23,7 @@ const JobAdv = ({data, tags}) => {
     <div
       className={featured ? 'job-adv-container featured' : 'job-adv-container'}>
       <div className='introduction'>
-        <img src={logo} alt='job-img' />
+        <img src={logo} alt='job-img' className='job-img' />
         <div className='content'>
           <div className='header'>
             <span className='company'>{company}</span>
