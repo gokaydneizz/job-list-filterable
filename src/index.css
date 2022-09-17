@@ -171,9 +171,34 @@ body {
   color: #fff;
 }
 
+@media only screen and (max-width: 1300px) {
+  body {
+    padding: 4em;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .job-adv-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    position: relative;
+    align-items: flex-start;
+    padding: 1em 2em;
+    margin-bottom: 3em;
+  }
+
+  .introduction {
+    border-bottom: 1px solid #000;
+    padding: 2em 1em;
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   body {
     font-size: 13px;
+    padding: 0;
   }
 
   .filters {
